@@ -40,7 +40,7 @@ function updateBigCup() {
     }
 
     if(fullCups === totalCups) {
-        remained.style.visibility = 'hidden'
+        remained.style.visibility = 'visible'
         remained.style.height = 0
     } else {
         remained.style.visibility = 'visible'
