@@ -44,6 +44,6 @@ function updateBigCup() {
         remained.style.height = 0
     } else {
         remained.style.visibility = 'visible'
-        listers.innerText = `${4 - (250 * fullCups / 1000)}L`
+        listers.innerText = `${4 - (500 * fullCups / 1000)}L`
     }
 }
