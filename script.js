@@ -35,7 +35,7 @@ function updateBigCup() {
         percentage.style.height = 0
     } else {
         percentage.style.visibility = 'visible'
-        percentage.style.height = `${fullCups / totalCups * 330}px`
+        percentage.style.height = `${fullCups / totalCups * 350}px`
         percentage.innerText = `${fullCups / totalCups * 100}%`
     }
 
@@ -44,6 +44,6 @@ function updateBigCup() {
         remained.style.height = 0
     } else {
         remained.style.visibility = 'visible'
-        listers.innerText = `${2 - (250 * fullCups / 1000)}L`
+        listers.innerText = `${4 - (250 * fullCups / 1000)}L`
     }
 }
